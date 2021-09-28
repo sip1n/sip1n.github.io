@@ -1,9 +1,56 @@
-﻿
-body {
-    background-image: url(images/soon.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #C7C0B3;
+﻿/*
+    VÄRIT
 
-    
+    #E2E1E9
+    #CCC9D1
+    #A4ABBF
+    #5F6273
+    #F00807
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+html {
+    scroll-behavior: smooth;
 }
+.navBar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ccc9d1;
+}
+.btnMenu:hover {
+    color: #A4ABBF;
+}
+.btnMenu:active {
+    color: #F00807;
+}
+.btnMenu {
+    text-decoration: none;
+    color: #5f6273;
+    text-align: center;
+    float: left;
+    font-size: 2rem;
+    background-color: #ccc9d1;
+    min-width: fit-content;
+    outline: 2px solid #E2E1E9;
+    padding: 5px 10px 5px 10px;
+}
+body {
+    background-color: #E2E1E9;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.mainWrapper {
+    margin-top: 55px;
+}
+.main {
+    height: 600px;
+    width: 100%;
+    outline: 3px solid black;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+#content1 {
+    background-color: #A4ABBF;
+}
+
