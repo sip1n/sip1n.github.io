@@ -37,11 +37,12 @@ a.btnMenu {
     font-size: 2rem;
     background-color: #ccc9d1;
     min-width: fit-content;
-    outline: 2px solid #E2E1E9;
+    outline: 1px solid #E2E1E9;
     padding: 5px 10px 5px 10px;
 
 }
 body {
+    margin: 0;
     background-color: #E2E1E9;
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 1.5rem;

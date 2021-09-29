@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-size: 20px;
+}
+p {
+    font-size: 12px;
+    color: green;
+}
+.divideri {
+    border: 2px dotted;
+    height: 100px;
+    width: 100px;
+}
+ul {
+    list-style:square;
+}
+ol {
+    list-style: upper-latin;
+}
