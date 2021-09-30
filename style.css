@@ -9,6 +9,16 @@
 
 */
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+@keyframes menu-hover-pulse {
+    0% {
+         
+    }
+    100% {
+        color: #A4ABBF;
+    }
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 55px;
@@ -21,13 +31,14 @@ html {
     background-color: #ccc9d1;
 }
 .btnMenu:hover {
-    color: #A4ABBF;
+    animation: menu-hover-pulse 0.8s ease-in infinite alternate;
 }
 .btnMenu:active {
     color: #F00807;
 }
 a.btnMenu {
     position: relative;
+ 
 }
 .btnMenu {
     text-decoration: none;
@@ -39,7 +50,7 @@ a.btnMenu {
     min-width: fit-content;
     outline: 1px solid #E2E1E9;
     padding: 5px 10px 5px 10px;
-
+    
 }
 body {
     margin: 0;
@@ -54,7 +65,7 @@ body {
     height: fit-content;
     min-height: 600px;
     width: 100%;
-    outline: 3px solid black;
+    outline: 0px solid black;
     padding: 0px 0px 0px 0px;
     float: left;
 }
