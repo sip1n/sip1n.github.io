@@ -8,12 +8,15 @@ body {
 a:visited {
     color: white;
 }
+a:hover{
+    color: red;
+}
 #otsikko {
     text-decoration: underline;
     text-align:center;
     text-underline-offset: 5px;
 }
-#linkki {
+.linkki {
     border: 2px solid white;
     text-decoration: none;
     font-size: 16px;
@@ -24,4 +27,13 @@ a:visited {
 p {
     background-color: black;
     color: forestgreen;
+}
+nav {
+    width: 30%;
+    float: left;
+    background-color: lightgray;
+}
+section{
+    width: 70%;
+    float: left;
 }
