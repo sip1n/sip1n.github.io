@@ -1,10 +1,9 @@
 .navbar .navbar-brand {
     padding-left: 15px;
 }
-img .kuvatausta{
-    background-color: dimgray;
+p{
+    padding-left: 15px;
 }
-#image-row{
-    width: 80%;
-    
+footer{
+    text-align: center;
 }
