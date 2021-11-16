@@ -1,0 +1,55 @@
+h1{
+    text-shadow: 3px 3px blueviolet;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: black;
+      color: white;
+    }
+    h1{
+        text-shadow: 3px 3px chartreuse;
+    }
+
+  }
+#laatikkovarjo {
+    border: 1px solid black;
+    box-shadow: 10px 20px blueviolet;
+}
+#laatikkolaatikossa {
+    height: 128px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    border: 1px solid red;
+    color: yellow;
+    text-shadow: 2px 2px blueviolet;
+}
+#linkkidiv {
+    background-color: white;
+    color: black;
+    text-shadow: 0px;
+}
+.eivarjoa{
+    text-shadow: none;
+}
+#linkki{
+    color: black;
+    
+    transition: color 1s;
+}
+#linkki:hover{
+    color: red;
+}
+#linkki:active{
+    color: blue;
+}
+#linkki2{
+    color: red;
+    
+    transition: color 1s;
+}
+#linkki2:hover{
+    color: black;
+}
+#linkki2:active{
+    color: green;
+}
