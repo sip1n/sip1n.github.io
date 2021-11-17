@@ -2,6 +2,3 @@
 
 
 Internetsivujen rakentelukurssin repo
-
-Kurssin aiheena on verkkosivujenkehityksen perusteet
-
