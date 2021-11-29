@@ -1,0 +1,52 @@
+﻿@font-face {
+    font-family: drippingFont;
+    src: url(./fonts/adrip1.ttf);
+}
+
+html {
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-color: #212529;
+    height: 100%;
+    margin: 0;
+}
+.dripping-font-3 {
+    font-family: drippingFont;
+    font-size: 3.5rem;
+}
+.dripping-font-2 {
+    font-family: drippingFont;
+    font-size: 2rem;
+}
+.dripping-font-1 {
+    font-family: drippingFont;
+    font-size: 1.5rem;
+}
+.dripping-font {
+    font-family: drippingFont;
+}
+#carouselMpc .carousel-item img {
+    object-fit: cover;
+    height: 25vh;
+}
+.cover {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.nav-item:hover {
+    animation: colorChangeHover 2s infinite;
+}
+@keyframes colorChangeHover {
+    0% { color: ;}
+    75% { color: yellowgreen;}
+    100% { color: ;}
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
